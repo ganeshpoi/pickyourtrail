@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="pickYoutTrail" duration-ms="40418" started-at="2020-01-20T14:07:29 IST" finished-at="2020-01-20T14:08:09 IST">
+    <groups>
+    </groups>
+    <test name="TestConfirmTravel" duration-ms="40418" started-at="2020-01-20T14:07:29 IST" finished-at="2020-01-20T14:08:09 IST">
+      <class name="pickyourtrailIntializer.Pickyourtrail">
+        <test-method status="PASS" signature="lauchBrowser()[pri:0, instance:pickyourtrailIntializer.Pickyourtrail@5c5a1b69]" name="lauchBrowser" is-config="true" duration-ms="12344" started-at="2020-01-20T14:07:29 IST" finished-at="2020-01-20T14:07:41 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- lauchBrowser -->
+        <test-method status="PASS" signature="confirmTravel()[pri:0, instance:pickyourtrailIntializer.Pickyourtrail@5c5a1b69]" name="confirmTravel" duration-ms="25741" started-at="2020-01-20T14:07:41 IST" finished-at="2020-01-20T14:08:07 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- confirmTravel -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:pickyourtrailIntializer.Pickyourtrail@5c5a1b69]" name="tearDown" is-config="true" duration-ms="2234" started-at="2020-01-20T14:08:07 IST" finished-at="2020-01-20T14:08:09 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- pickyourtrailIntializer.Pickyourtrail -->
+    </test> <!-- TestConfirmTravel -->
+  </suite> <!-- pickYoutTrail -->
+</testng-results>
