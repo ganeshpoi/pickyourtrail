@@ -1,17 +1,16 @@
-package pages;
+package honeymoonDealsScenerio;
 
 import java.io.IOException;
 import java.util.List;
 
 import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
-import org.openqa.selenium.interactions.Actions;
 
-public class TravelPlanPage {
+import pages.Initializer;
 
+public class HMTravelPlanPage {
 	public static void travelplan(WebDriver driver) throws InterruptedException, IOException {
 		driver.findElement(By.xpath("//input[@placeholder='Departing from']")).click();
 		driver.findElement(By.xpath("//input[@placeholder='Search cities']")).sendKeys(Initializer.getData("DepartingFrom"),Keys.ENTER);
@@ -63,3 +62,5 @@ public class TravelPlanPage {
 		driver.findElement(By.xpath("//button[text()='Get Cost']")).click();
 		}
 }
+
+

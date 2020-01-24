@@ -1,14 +1,14 @@
-package pages;
+package honeymoonDealsScenerio;
 
 import java.io.IOException;
-import java.util.concurrent.TimeUnit;
 
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.chrome.ChromeOptions;
 
-public class DriverFunctions {
+import pages.Initializer;
 
+public class BrowserOpen {
 	public static WebDriver openBrowser() {
 
 		ChromeOptions options = new ChromeOptions();
@@ -21,7 +21,5 @@ public class DriverFunctions {
 	public static void enterURL(WebDriver driver) throws IOException {
 		driver.manage().window().maximize();
 		driver.get(Initializer.getData("URL"));
-		
-		driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 	}
 }
